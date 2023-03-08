@@ -1,3 +1,5 @@
+<p align="center"> <img alt="Space Station 14" width="362" height="200" src="https://raw.githubusercontent.com/Zeliboba1488/BlackSpace/master/Resources/Textures/Logo/logo-ru.png" /></p>
+
 Black Space это сообщество по игре Space Station 14 которая является ремейком SS13, которая работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
 Это репозиторий сервера по тематике Союза Советских Социалестических Планет, который показывает каким был бы СССР в будущем. 
