@@ -1,7 +1,7 @@
 ent-ClothingHeadsetAlt = полноразмерная гарнитура
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
     .suffix = { "" }
-ent-ClothingHeadsetAltCentCom = полноразмерная гарнитура Центком
+ent-ClothingHeadsetAltCentCom = полноразмерная гарнитура генерального секретаря
     .desc = { ent-ClothingHeadsetAlt.desc }
     .suffix = { "" }
 ent-ClothingHeadsetAltCommand = полноразмерная гарнитура командования
@@ -10,7 +10,7 @@ ent-ClothingHeadsetAltCommand = полноразмерная гарнитура 
 ent-ClothingHeadsetAltMedical = полноразмерная гарнитура ГВ
     .desc = { ent-ClothingHeadsetAlt.desc }
     .suffix = { "" }
-ent-ClothingHeadsetAltSecurity = полноразмерная гарнитура ГСБ
+ent-ClothingHeadsetAltSecurity = полноразмерная гарнитура директора милиции
     .desc = { ent-ClothingHeadsetAlt.desc }
     .suffix = { "" }
 ent-ClothingHeadsetAltEngineering = полноразмерная гарнитура СИ
