@@ -1,0 +1,33 @@
+- type: job
+  id: Private
+  name: Рядовой
+  description: обучайтесь
+  playTimeTracker: JobArmyPrivate
+  requirements:
+    - !type:OverallPlaytimeRequirement # Corvax-RoleTime
+        time: 36000
+  icon: "Detective"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+
+- type: startingGear
+  id: PrivateGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+    back: ClothingMilitaryBackpack
+    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
+    outerClothing: ClothingOuterCoatHoSTrench
+    eyes: ClothingEyesGlassesSecurity
+    head: ClothingHeadHatBeretHoS
+    id: ArmyPrivatePDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltSecurity
+    belt: ClothingBeltSecurityFilled
+  innerclothingskirt: ClothingUniformJumpskirtHoS
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingMilitaryBackpackDuffelMilitary

@@ -731,4 +731,63 @@
         tags:
         - Write
   - type: Unremoveable
+  
+- type: entity
+  parent: BasePDA
+  id: ArmyPrivatePDA
+  name: ПЭД Рядового
+  description: Почему он не зеленый?
+  components:
+  - type: PDA
+    id: PrivateIDCard
+    state: pda-interncadet
+  - type: Icon
+    state: pda-interncadet
+    
+- type: entity
+  parent: BasePDA
+  id: ArmyCorpoalPDA
+  name: ПЭД Ефрейтора
+  description: Почему он не зеленый?
+  components:
+  - type: PDA
+    id: CorporalIDCard
+    state: pda-interncadet
+  - type: Icon
+    state: pda-interncadet
+    
+- type: entity
+  parent: BasePDA
+  id: ArmySergeantPDA
+  name: ПЭД Сержанта
+  description: Почему он не зеленый?
+  components:
+  - type: PDA
+    id: SergeantlIDCard
+    state: pda-interncadet
+  - type: Icon
+    state: pda-interncadet
 
+- type: entity
+  parent: BasePDA
+  id: ArmyLieutenantPDA
+  name: ПЭД Поручика
+  description: Почему он не зеленый?
+  components:
+  - type: PDA
+    id: LieutenantIDCard
+    state: pda-interncadet
+  - type: Icon
+    state: pda-interncadet
+    
+- type: entity
+  parent: BasePDA
+  id: ArmyArmy_GeneralPDA
+  name: ПЭД Генерала Армии
+  description: Почему он не зеленый?
+  components:
+  - type: PDA
+    id: Army_GeneralIDCard
+    state: pda-interncadet
+  - type: Icon
+    state: pda-interncadet

@@ -587,3 +587,63 @@
   - type: IdCard
     jobTitle: Cluwne
   - type: Unremoveable
+  
+- type: entity
+  parent: IDCardStandard
+  id: PrivateIDCard
+  name: ЭК Рядового
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: ArmyPrivate
+    
+- type: entity
+  parent: IDCardStandard
+  id: CorporalIDCard
+  name: ЭК Ефрейтора
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: ArmyCorporal
+    
+- type: entity
+  parent: IDCardStandard
+  id: SergeantlIDCard
+  name: ЭК Сержанта
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: ArmySergeant
+    
+- type: entity
+  parent: IDCardStandard
+  id: LieutenantIDCard
+  name: ЭК Поручика
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: ArmyLieutenant
+    
+- type: entity
+  parent: IDCardStandard
+  id: Army_GeneralIDCard
+  name: ЭК Генерала Армии
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: ArmyArmy_General

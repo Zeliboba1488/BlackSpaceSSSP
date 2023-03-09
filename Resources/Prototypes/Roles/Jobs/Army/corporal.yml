@@ -1,0 +1,39 @@
+﻿- type: job
+  id: Corporal
+  name: Ефрейтор
+  description: Служите, помогайте рядовым и никакой дедовщины....
+  playTimeTracker: JobArmyCorporal
+  requirements:
+    - !type:RoleTimeRequirement
+        role: JobPrivate
+        time: 36000 # Corvax-RoleTime
+    - !type:OverallPlaytimeRequirement # Corvax-RoleTime
+        time: 36000
+    - !type:DepartmentTimeRequirement
+        department: Security
+        time: 72000 # Corvax-RoleTime
+        inverted: true # stop playing intern if you're good at security!
+  icon: "SecurityCadet"
+  supervisors: job-supervisors-security
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+
+- type: startingGear
+  id: CorporalGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+    back: ClothingMilitaryBackpack
+    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
+    outerClothing: ClothingOuterCoatHoSTrench
+    eyes: ClothingEyesGlassesSecurity
+    head: ClothingHeadHatBeretHoS
+    id: ArmyCorpoalPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltSecurity
+    belt: ClothingBeltSecurityFilled
+  innerclothingskirt: ClothingUniformJumpskirtHoS
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingMilitaryBackpackDuffelMilitary

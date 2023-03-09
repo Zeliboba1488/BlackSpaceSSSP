@@ -87,3 +87,14 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  
+- type: department
+  id: Army
+  description: department-Command-description
+  color: "#556B2F"
+  roles:
+  - ArmyGeneral	
+  - Lieutenant
+  - Sergeant	
+  - Corporal
+  - Private

@@ -1,0 +1,39 @@
+- type: job
+  id: Lieutenant
+  name: Поручик
+  description: Ваша задача следить за арсеналом армии.
+  playTimeTracker: JobArmyLieutenant
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobArmySergeant
+      time: 36000 # Corvax-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Army
+      time: 108000 # Corvax-RoleTime
+  icon: "Warden"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - Brig
+  - External
+
+- type: startingGear
+  id: LieutenantGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+    back: ClothingMilitaryBackpack
+    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
+    outerClothing: ClothingOuterCoatHoSTrench
+    eyes: ClothingEyesGlassesSecurity
+    head: ClothingHeadHatBeretHoS
+    id: ArmyLieutenantPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltSecurity
+    belt: ClothingBeltSecurityFilled
+  innerclothingskirt: ClothingUniformJumpskirtHoS
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingMilitaryBackpackDuffelMilitary

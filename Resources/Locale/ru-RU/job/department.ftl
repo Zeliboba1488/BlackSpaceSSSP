@@ -5,3 +5,4 @@ department-Engineering = Инженерный отдел
 department-Medical = Медицинский отдел
 department-Security = Милиция
 department-Science = Научный отдел
+department-Army = Армия СССП
