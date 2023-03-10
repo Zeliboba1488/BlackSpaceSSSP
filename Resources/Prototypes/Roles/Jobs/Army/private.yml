@@ -6,7 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement # Corvax-RoleTime
         time: 36000
-  icon: "Detective"
+  icon: "Private"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:

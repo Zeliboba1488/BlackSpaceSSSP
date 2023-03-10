@@ -10,7 +10,7 @@
     - !type:DepartmentTimeRequirement
       department: Army
       time: 108000 # Corvax-RoleTime
-  icon: "Warden"
+  icon: "Lieutenant"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:

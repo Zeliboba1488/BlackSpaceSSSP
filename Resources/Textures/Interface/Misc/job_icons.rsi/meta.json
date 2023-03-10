@@ -141,6 +141,21 @@
         },
         {
             "name": "Zookeeper"
+        },
+		{
+            "name": "ArmyGeneral"
+        },
+		{
+            "name": "Corporal"
+        },
+		{
+            "name": "Lieutenant"
+        },
+		{
+            "name": "Sergeant"
+        },
+		{
+            "name": "Private"
         }
     ]
 }

@@ -6,14 +6,11 @@
   requirements:
     - !type:RoleTimeRequirement
         role: JobPrivate
-        time: 36000 # Corvax-RoleTime
+        time: 12000 # Corvax-RoleTime
     - !type:OverallPlaytimeRequirement # Corvax-RoleTime
-        time: 36000
-    - !type:DepartmentTimeRequirement
-        department: Security
-        time: 72000 # Corvax-RoleTime
-        inverted: true # stop playing intern if you're good at security!
-  icon: "SecurityCadet"
+        time: 12000
+        inverted: false # stop playing intern if you're good at security!
+  icon: "Corporal"
   supervisors: job-supervisors-security
   canBeAntag: false
   access:

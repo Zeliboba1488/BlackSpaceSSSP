@@ -10,7 +10,7 @@
     - !type:DepartmentTimeRequirement
         department: Army
         time: 36000 # Corvax-RoleTime
-  icon: "SecurityOfficer"
+  icon: "Sergeant"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
