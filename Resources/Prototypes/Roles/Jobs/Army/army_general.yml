@@ -28,7 +28,7 @@
   - External
 
 - type: startingGear
-  id: Army_GeneralGear
+  id: ArmyGeneralGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingMilitaryBackpack
