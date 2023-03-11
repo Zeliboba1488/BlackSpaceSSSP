@@ -740,9 +740,9 @@
   components:
   - type: PDA
     id: PrivateIDCard
-    state: pda-interncadet
+    state: pda-army
   - type: Icon
-    state: pda-interncadet
+    state: pda-army
     
 - type: entity
   parent: BasePDA
@@ -752,9 +752,9 @@
   components:
   - type: PDA
     id: CorporalIDCard
-    state: pda-interncadet
+    state: pda-army
   - type: Icon
-    state: pda-interncadet
+    state: pda-army
     
 - type: entity
   parent: BasePDA
@@ -764,9 +764,9 @@
   components:
   - type: PDA
     id: SergeantlIDCard
-    state: pda-interncadet
+    state: pda-army
   - type: Icon
-    state: pda-interncadet
+    state: pda-army
 
 - type: entity
   parent: BasePDA
@@ -776,9 +776,9 @@
   components:
   - type: PDA
     id: LieutenantIDCard
-    state: pda-interncadet
+    state: pda-army
   - type: Icon
-    state: pda-interncadet
+    state: pda-army
     
 - type: entity
   parent: BasePDA
@@ -788,6 +788,6 @@
   components:
   - type: PDA
     id: Army_GeneralIDCard
-    state: pda-interncadet
+    state: pda-army
   - type: Icon
-    state: pda-interncadet
+    state: pda-army
