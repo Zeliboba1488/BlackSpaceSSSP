@@ -596,7 +596,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idsecurityofficer
+    - state: idarmy
   - type: PresetIdCard
     job: ArmyPrivate
     
@@ -608,7 +608,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idsecurityofficer
+    - state: idarmy
   - type: PresetIdCard
     job: ArmyCorporal
     
@@ -620,7 +620,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idsecurityofficer
+    - state: idarmy
   - type: PresetIdCard
     job: ArmySergeant
     
@@ -632,7 +632,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idsecurityofficer
+    - state: idarmy
   - type: PresetIdCard
     job: ArmyLieutenant
     
@@ -644,6 +644,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idsecurityofficer
+    - state: idarmy
   - type: PresetIdCard
     job: ArmyArmy_General
