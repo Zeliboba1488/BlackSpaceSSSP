@@ -732,64 +732,62 @@
         - Write
   - type: Unremoveable
   
-#Армия  
-  
 - type: entity
   parent: BasePDA
   id: ArmyPrivatePDA
   name: ПЭД Рядового
-  description: Почему он не стреляет?
+  description: Почему он не зеленый?
   components:
   - type: PDA
     id: PrivateIDCard
-    state: pda-army
+    state: pda-interncadet
   - type: Icon
-    state: pda-army
+    state: pda-interncadet
     
 - type: entity
   parent: BasePDA
   id: ArmyCorpoalPDA
   name: ПЭД Ефрейтора
-  description: Почему он не стреляет?
+  description: Почему он не зеленый?
   components:
   - type: PDA
     id: CorporalIDCard
-    state: pda-army
+    state: pda-interncadet
   - type: Icon
-    state: pda-army
+    state: pda-interncadet
     
 - type: entity
   parent: BasePDA
   id: ArmySergeantPDA
   name: ПЭД Сержанта
-  description: Почему он не стреляет?
+  description: Почему он не зеленый?
   components:
   - type: PDA
     id: SergeantlIDCard
-    state: pda-army
+    state: pda-interncadet
   - type: Icon
-    state: pda-army
+    state: pda-interncadet
 
 - type: entity
   parent: BasePDA
   id: ArmyLieutenantPDA
   name: ПЭД Поручика
-  description: Почему он не следит за складом?
+  description: Почему он не зеленый?
   components:
   - type: PDA
     id: LieutenantIDCard
-    state: pda-army
+    state: pda-interncadet
   - type: Icon
-    state: pda-army
+    state: pda-interncadet
     
 - type: entity
   parent: BasePDA
   id: ArmyArmy_GeneralPDA
   name: ПЭД Генерала Армии
-  description: Почему он не командует?
+  description: Почему он не зеленый?
   components:
   - type: PDA
     id: Army_GeneralIDCard
-    state: pda-army
+    state: pda-interncadet
   - type: Icon
-    state: pda-army
+    state: pda-interncadet
