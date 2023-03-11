@@ -20,8 +20,9 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingMilitaryBackpack
-    shoes: ClothingShoesBootsCombat
+    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
     outerClothing: ClothingOuterCoatHoSTrench
+    eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadHatBeretHoS
     id: ArmyPrivatePDA
     gloves: ClothingHandsGlovesCombat
