@@ -211,3 +211,33 @@
     sprite: Structures/Doors/Airlocks/Glass/security.rsi
   - type: PaintableAirlock
     group: Glass
+    
+- type: entity
+  parent: AirlockGlass
+  id: AirlockArmyGlass
+  suffix: Army
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/army.rsi
+  - type: PaintableAirlock
+    group: Glass
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockArmyGeneralGlass
+  suffix: ArmyGeneral
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/army.rsi
+  - type: PaintableAirlock
+    group: Glass
+    
+- type: entity
+  parent: AirlockGlass
+  id: AirlockArmyLieutenantGlass
+  suffix: ArmyLieutenant
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/army.rsi
+  - type: PaintableAirlock
+    group: Glass

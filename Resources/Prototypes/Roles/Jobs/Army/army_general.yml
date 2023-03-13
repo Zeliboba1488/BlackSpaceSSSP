@@ -18,17 +18,12 @@
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
-  - HeadOfSecurity
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
+  - ArmyGeneral
+  - Army
+  - Lieutenant
 
 - type: startingGear
-  id: Army_GeneralGear
+  id: ArmyGeneralGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingMilitaryBackpack

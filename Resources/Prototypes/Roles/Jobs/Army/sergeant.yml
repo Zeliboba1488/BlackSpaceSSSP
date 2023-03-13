@@ -14,11 +14,7 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
-  - Security
-  - Brig
-  - Maintenance
-  - Service
-  - External
+  - Army
 
 - type: startingGear
   id: SergeantGear

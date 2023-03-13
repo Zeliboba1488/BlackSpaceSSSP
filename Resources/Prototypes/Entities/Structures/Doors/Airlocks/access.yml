@@ -528,6 +528,30 @@
   - type: AccessReader
     access: [["External"]]
 
+- type: entity
+  parent: AirlockArmyGlass
+  id: AirlockArmyArmyGlass
+  suffix: Army, Locked
+  components:
+  - type: AccessReader
+    access: [["Army"]]
+    
+- type: entity
+  parent: AirlockArmyGeneralGlass
+  id: AirlockArmyArmyGeneralGlass
+  suffix: ArmyGeneral, Locked
+  components:
+  - type: AccessReader
+    access: [["ArmyGeneral"]]
+    
+- type: entity
+  parent: AirlockArmyLieutenantGlass
+  id: AirlockArmyArmyLieutenantGlass
+  suffix: ArmyLieutenant, Locked
+  components:
+  - type: AccessReader
+    access: [["Lieutenant"]]
+
 # Maintenance Hatches
 - type: entity
   parent: AirlockMaint

@@ -14,12 +14,8 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - Brig
-  - External
+  - Army
+  - Lieutenant
 
 - type: startingGear
   id: LieutenantGear

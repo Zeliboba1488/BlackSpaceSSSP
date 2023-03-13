@@ -14,9 +14,7 @@
   supervisors: job-supervisors-security
   canBeAntag: false
   access:
-  - Security
-  - Brig
-  - Maintenance
+  - Army
 
 - type: startingGear
   id: CorporalGear
