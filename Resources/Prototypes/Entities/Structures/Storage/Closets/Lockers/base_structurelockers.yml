@@ -52,3 +52,20 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+
+- type: entity
+  id: LockerBaseArmy
+  parent: LockerBase
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: StrongMetallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]

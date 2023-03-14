@@ -5,7 +5,7 @@
   playTimeTracker: JobArmyPrivate
   requirements:
     - !type:OverallPlaytimeRequirement # Corvax-RoleTime
-        time: 36000
+        time: 1200
   icon: "Private"
   supervisors: job-supervisors-hos
   canBeAntag: false
@@ -17,14 +17,14 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingMilitaryBackpack
-    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
+    shoes: ClothingShoesBootsCombat
     outerClothing: ClothingOuterCoatHoSTrench
     eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadHatBeretHoS
     id: ArmyPrivatePDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
-    belt: ClothingBeltSecurityFilled
+    belt: ClothingBeltMilitaryWebbing
   innerclothingskirt: ClothingUniformJumpskirtHoS
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingMilitaryBackpackDuffelMilitary

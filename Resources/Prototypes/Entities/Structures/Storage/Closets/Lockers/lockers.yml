@@ -379,3 +379,45 @@
         actOnClose: false
         destroyAfterUses: 2
         destroyType: DeleteComponent
+
+- type: entity
+  id: LockerArmy
+  parent: LockerBaseSecure
+  name: Шкаф военнослужащего
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: sec
+      state_open: sec_open
+      state_closed: sec_door
+  - type: AccessReader
+    access: [["Army"], ["Lieutenant"], ["ArmyGeneral"]]
+
+- type: entity
+  id: LockerArmyGeneral
+  parent: LockerBaseArmy
+  name: Шкаф Генерала
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: sec
+      state_open: sec_open
+      state_closed: sec_door
+  - type: AccessReader
+    access: [["ArmyGeneral"]]
+    
+- type: entity
+  id: LockerArmyLieutenant
+  parent: LockerBaseArmy
+  name: Шкаф Поручика
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: sec
+      state_open: sec_open
+      state_closed: sec_door
+  - type: AccessReader
+    access: [["Lieutenant"], ["ArmyGeneral"]]

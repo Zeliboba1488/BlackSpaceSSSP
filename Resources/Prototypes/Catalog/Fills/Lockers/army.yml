@@ -1,0 +1,31 @@
+- type: entity
+  id: LockerLieutenantFilled
+  suffix: Filled
+  parent: LockerArmyLieutenant
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingShoesBootsCombat
+      - id: ClothingBeltMilitaryWebbing
+
+- type: entity
+  id: LockerArmyFilled
+  suffix: Filled
+  parent: LockerArmy
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingShoesBootsCombat
+      - id: ClothingBeltMilitaryWebbing
+
+- type: entity
+  id: LockerGeneralFilled
+  suffix: Filled
+  parent: LockerArmyGeneral
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingShoesBootsCombat
+      - id: ClothingBeltMilitaryWebbing
+
+
