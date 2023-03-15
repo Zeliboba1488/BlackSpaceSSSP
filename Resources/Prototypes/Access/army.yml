@@ -1,0 +1,22 @@
+- type: accessLevel
+  id: Lieutenant
+  name: id-card-access-level-head-of-security
+
+- type: accessLevel
+  id: Army
+  name: id-card-access-level-security
+
+- type: accessLevel
+  id: ArmyGeneral
+  name: id-card-access-level-armory
+
+#- type: accessLevel
+#  id: Detective
+
+- type: accessGroup
+  id: Army
+  tags:
+  - Army
+  - ArmyGeneral
+  - Lieutenant
+  # - Detective

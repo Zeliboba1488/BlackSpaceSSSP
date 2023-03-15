@@ -33,7 +33,7 @@
     head: ClothingHeadHatBeretHoS
     id: ArmyArmy_GeneralPDA
     gloves: ClothingHandsGlovesCombat
-    ears: ClothingHeadsetAltSecurity
+    ears: ClothingHeadsetArmyHeadquarters
     belt: ClothingBeltSecurityFilled
   innerclothingskirt: ClothingUniformJumpskirtHoS
   satchel: ClothingBackpackSatchelSecurityFilled

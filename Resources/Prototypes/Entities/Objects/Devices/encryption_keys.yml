@@ -202,3 +202,32 @@
   - type: Sprite
     sprite: Objects/Devices/encryption_keys.rsi
     state: syn_cypherkey
+    
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyArmy
+  name: Ключ шифрования Армии
+  description: Ключ шифрования, используемый армии Союза. Может он дает отсрочку?
+  components:
+  - type: EncryptionKey
+    channels:
+    - Army
+    defaultChannel: Army
+  - type: Sprite
+    sprite: Objects/Devices/encryption_keys.rsi
+    state: army_cypherkey
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyArmyHeadquarters
+  name: Ключ шифрования Штаба Армии
+  description: Ключ шифрования, используемый штабом армии Союза. Кажется даже он командует...
+  components:
+  - type: EncryptionKey
+    channels:
+    - Army
+    - ArmyHeadquarters
+    defaultChannel: Army
+  - type: Sprite
+    sprite: Objects/Devices/encryption_keys.rsi
+    state: headquarters_cypherkey

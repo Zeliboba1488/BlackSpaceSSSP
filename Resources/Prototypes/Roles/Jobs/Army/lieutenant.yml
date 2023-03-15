@@ -28,7 +28,7 @@
     head: ClothingHeadHatBeretHoS
     id: ArmyLieutenantPDA
     gloves: ClothingHandsGlovesCombat
-    ears: ClothingHeadsetAltSecurity
+    ears: ClothingHeadsetArmyHeadquarters
     belt: ClothingBeltSecurityFilled
   innerclothingskirt: ClothingUniformJumpskirtHoS
   satchel: ClothingBackpackSatchelSecurityFilled

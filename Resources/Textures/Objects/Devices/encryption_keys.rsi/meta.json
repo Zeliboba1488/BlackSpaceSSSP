@@ -27,6 +27,8 @@
     {"name": "sci_cypherkey"},
     {"name": "sec_cypherkey"},
     {"name": "srv_cypherkey"},
-    {"name": "syn_cypherkey"}
+    {"name": "syn_cypherkey"},
+	{"name": "army_cypherkey"},
+	{"name": "headquarters_cypherkey"}
   ]
 }

@@ -67,3 +67,17 @@
   keycode: 'т' # Corvax-Localization
   frequency: 1213
   color: "#8f4a4b"
+  
+- type: radioChannel
+  id: Army
+  name: Армия
+  keycode: 'а' # Corvax-Localization
+  frequency: 2288
+  color: "#6ca729"
+  
+- type: radioChannel
+  id: ArmyHeadquarters
+  name: Штаб
+  keycode: 'ш' # Corvax-Localization
+  frequency: 2277
+  color: "#6ca729"

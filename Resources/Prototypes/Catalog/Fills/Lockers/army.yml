@@ -7,6 +7,7 @@
     contents:
       - id: ClothingShoesBootsCombat
       - id: ClothingBeltMilitaryWebbing
+      - id: ClothingHeadsetArmyHeadquarters
 
 - type: entity
   id: LockerArmyFilled
@@ -17,6 +18,7 @@
     contents:
       - id: ClothingShoesBootsCombat
       - id: ClothingBeltMilitaryWebbing
+      - id: ClothingHeadsetArmy
 
 - type: entity
   id: LockerGeneralFilled
@@ -27,5 +29,6 @@
     contents:
       - id: ClothingShoesBootsCombat
       - id: ClothingBeltMilitaryWebbing
+      - id: ClothingHeadsetArmyHeadquarters
 
 

@@ -238,4 +238,35 @@
     sprite: Clothing/Ears/Headsets/service.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/service.rsi
+    
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetArmy
+  name: Гарнитура Армии Союза
+  description: Гарнитура, используемая солдатами армии.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyArmy
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/army.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/army.rsi
+    
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetArmyHeadquarters
+  name: Гарнитура Штаба Армии
+  description: Гарнитура, используемая штабом армии. Да не орите вы...
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyArmy
+      - EncryptionKeyArmyHeadquarters
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/armyheadquarters.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/armyheadquarters.rsi
 
