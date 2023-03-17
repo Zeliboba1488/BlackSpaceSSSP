@@ -61,12 +61,12 @@ ent-AirlockCommandGlass = { ent-AirlockGlass }
 ent-AirlockSecurityGlass = { ent-AirlockGlass }
     .desc = { ent-AirlockGlass.desc }
     .suffix = СлужбаБезопасности
-ent-AirlockArmyGlass
-    .desc = { ent-AirlockGlass.desc }
-    .suffix = Армия Союза
-ent-AirlockArmyGeneralGlass
-    .desc = { ent-AirlockGlass.desc }
+ent-AirlockArmyGlass = { ent-AirlockGlass }
+    .desc = Он открывается, он закрывается, он может раздавить вас.
+    .suffix = Армия Союза 
+ent-AirlockArmyGeneralGlass = { ent-AirlockGlass }
+    .desc = Он открывается, он закрывается, он может раздавить вас.
     .suffix = Генерал Армии
-ent-AirlockArmyLieutenantGlass
-    .desc = { ent-AirlockGlass.desc }
+ent-AirlockArmyLieutenantGlass = { ent-AirlockGlass }
+    .desc = Он открывается, он закрывается, он может раздавить вас.
     .suffix = Поручик Армии
