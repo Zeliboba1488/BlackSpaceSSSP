@@ -1050,6 +1050,9 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> CargoShuttles =
             CVarDef.Create("shuttle.cargo", true, CVar.SERVERONLY);
+		
+		public static readonly CVarDef<bool> ArmyStation =
+            CVarDef.Create("maps.armystation", true, CVar.SERVERONLY);
 
         /*
          * Emergency
@@ -1110,6 +1113,9 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<string> CentcommMap =
             CVarDef.Create("shuttle.centcomm_map", "/Maps/centcomm.yml", CVar.SERVERONLY);
+		
+		public static readonly CVarDef<string> ArmyMap =
+            CVarDef.Create("shuttle.army_map", "/Maps/armystation.yml", CVar.SERVERONLY);
 
         /*
          * Crew Manifests
