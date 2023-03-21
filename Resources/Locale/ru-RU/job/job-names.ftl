@@ -1,6 +1,6 @@
 job-name-warden = инспектор милиции
-job-name-security = старший милиционер
-job-name-cadet = милиционер
+job-name-security = лейтенант
+job-name-cadet = курсант
 job-name-hos = директор милиции
 job-name-detective = следователь
 job-name-scientist = учёный
